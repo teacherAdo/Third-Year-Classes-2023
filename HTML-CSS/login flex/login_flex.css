@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: rgb(198, 238, 243);
+    background: radial-gradient(circle, rgba(198, 238, 243, 1) 15%, rgba(0, 81, 146, 1) 93%);
+}
+
+.formContainer {
+    display: flex;
+    height: 22rem;
+    width: 20rem;
+    background-color: #b6f2f8;
+    margin: auto;
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 29px 52px rgba(0, 0, 0, 0.40), 0 25px 16px rgba(0, 0, 0, 0.20);
+}
+
+.logoContainer img {
+    height: 3.5rem;
+    width: 5.5rem;
+}
+
+.titleContainer h1 {
+    font-size: large;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.labels {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.inputs {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.inputs input {
+    outline: none;
+    border: 0;
+}
+
+.forgot_pswContainer a {
+    text-decoration: none;
+}
+
+.forgot_pswContainer a:hover {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.btnContainer button {
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem;
+}
+
+.btnContainer button:hover {
+    border-radius: 10px;
+    border: none;
+    background-color: aqua
+}
