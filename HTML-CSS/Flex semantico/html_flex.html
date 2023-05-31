@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+
+    <link rel="stylesheet" href="flex.css" />
+  </head>
+
+  <body>
+    <div class="flexContainer">
+      <!-- HEADER ////////////////////////////////////////////////////-->
+      <header class="headerContainer">
+        <hgroup class="tittleContainer">
+          <h1>Titulo principal</h1>
+        </hgroup>
+
+        <nav class="navContainer">
+          <ul class="navList">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/">Sobre Nosotros</a></li>
+            <li><a href="/">Contacta con nosotros</a></li>
+          </ul>
+        </nav>
+
+        <form class="formContainer">
+          <input name="search" type="password" />
+          <button type="submit">Buscar</button>
+        </form>
+      </header>
+
+      <!-- MAIN ////////////////////////////////////////////////////-->
+      <main class="mainContainer">
+        <!-- SECTION / ARTICLES  -->
+        <section class="sectionContainer">
+          <article class="article">
+            <section class="section">section 1</section>
+            <section class="section">section 2</section>
+          </article>
+
+          <article class="article">
+            <section class="section">section 1</section>
+            <section class="section">section 2</section>
+            <section class="section">section 3</section>
+          </article>
+
+          <article class="article_2">
+            <section class="section">section 1</section>
+          </article>
+        </section>
+
+        <!-- ASIDE -->
+        <aside class="asideContainer">
+          <h3>Aside</h3>
+          <nav>
+            <ul>
+              <li><a href="/">Tema 1</a></li>
+              <li><a href="/">Tema 2</a></li>
+              <li><a href="/">Tema 3</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </main>
+
+      <!-- FOOTER ////////////////////////////////////////////////////-->
+      <footer class="footerContainer">
+        <div class="footerBox">1</div>
+        <div class="footerBox">2</div>
+        <div class="footerBox">3</div>
+      </footer>
+    </div>
+  </body>
+</html>
