@@ -19,7 +19,7 @@ alert( "not a number" / 2 - 1 ); // NaN
 
 // Comillas dobles: "Hola".
 // Comillas simples: 'Hola'.
-// Templates: Backticks (comillas invertidas): `Hola`.
+// Templates: Backticks (comillas invertidas): `Hola`
 
 let name = "John";
 
@@ -30,7 +30,8 @@ alert( `Hola, ${name}!` ); // Hola, John!
 alert( `el resultado es ${1 + 2}` ); //el resultado es 3
 alert( "el resultado es ${1 + 2}" ); // el resultado es ${1 + 2} (las comillas dobles no hacen nada)
 
-
+alert("hola" + comoestas)
+alert(`hola ${comoestas}`)
 
 /*** Boolean (logic) ***/
 
